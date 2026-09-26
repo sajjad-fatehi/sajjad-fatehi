@@ -15,6 +15,19 @@
   <img src="./assets/hero.svg" width="100%" alt="Hero card — Sajjad, The Low-Latency" />
 </p>
 
+<p align="center">
+  <sub>🖱️ <b>inspect loadout</b> — click an ability or item</sub><br/>
+  <a href="https://nodejs.org" title="Q · Event Loop"><img src="https://skillicons.dev/icons?i=nodejs" width="36" alt="Q · Event Loop" /></a>
+  <a href="https://react.dev" title="W · Virtual DOM"><img src="https://skillicons.dev/icons?i=react" width="36" alt="W · Virtual DOM" /></a>
+  <a href="https://go.dev" title="Buff · learning Go"><img src="https://skillicons.dev/icons?i=go" width="36" alt="Buff · learning Go" /></a>
+  <a href="https://www.docker.com" title="Docker"><img src="https://skillicons.dev/icons?i=docker" width="36" alt="Docker" /></a>
+  <a href="https://redis.io" title="Redis"><img src="https://skillicons.dev/icons?i=redis" width="36" alt="Redis" /></a>
+  <a href="https://www.postgresql.org" title="Postgres"><img src="https://skillicons.dev/icons?i=postgres" width="36" alt="Postgres" /></a>
+  <a href="https://www.rabbitmq.com" title="RabbitMQ"><img src="https://skillicons.dev/icons?i=rabbitmq" width="36" alt="RabbitMQ" /></a>
+  <a href="https://nginx.org" title="Nginx"><img src="https://skillicons.dev/icons?i=nginx" width="36" alt="Nginx" /></a>
+  <a href="https://www.elastic.co" title="Elastic"><img src="https://skillicons.dev/icons?i=elasticsearch" width="36" alt="Elastic" /></a>
+</p>
+
 ### 📜 Quest Log
 
 ```diff
