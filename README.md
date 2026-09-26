@@ -15,18 +15,117 @@
   <img src="./assets/hero.svg" width="100%" alt="Hero card — Sajjad, The Low-Latency" />
 </p>
 
-<p align="center">
-  <sub>🖱️ <b>inspect loadout</b> — click an ability or item</sub><br/>
-  <a href="https://nodejs.org" title="Q · Event Loop"><img src="https://skillicons.dev/icons?i=nodejs" width="36" alt="Q · Event Loop" /></a>
-  <a href="https://react.dev" title="W · Virtual DOM"><img src="https://skillicons.dev/icons?i=react" width="36" alt="W · Virtual DOM" /></a>
-  <a href="https://go.dev" title="Buff · learning Go"><img src="https://skillicons.dev/icons?i=go" width="36" alt="Buff · learning Go" /></a>
-  <a href="https://www.docker.com" title="Docker"><img src="https://skillicons.dev/icons?i=docker" width="36" alt="Docker" /></a>
-  <a href="https://redis.io" title="Redis"><img src="https://skillicons.dev/icons?i=redis" width="36" alt="Redis" /></a>
-  <a href="https://www.postgresql.org" title="Postgres"><img src="https://skillicons.dev/icons?i=postgres" width="36" alt="Postgres" /></a>
-  <a href="https://www.rabbitmq.com" title="RabbitMQ"><img src="https://skillicons.dev/icons?i=rabbitmq" width="36" alt="RabbitMQ" /></a>
-  <a href="https://nginx.org" title="Nginx"><img src="https://skillicons.dev/icons?i=nginx" width="36" alt="Nginx" /></a>
-  <a href="https://www.elastic.co" title="Elastic"><img src="https://skillicons.dev/icons?i=elasticsearch" width="36" alt="Elastic" /></a>
-</p>
+
+### 🎮 Skill Build <sub>— click an ability, then ⬆ level up</sub>
+
+<table>
+<tr>
+<td align="center" valign="top" width="25%">
+<details>
+<summary><img src="./assets/abilities/q.svg" width="72" alt="Event Loop" /><br/><sub><b>Event Loop</b></sub></summary>
+<br/>
+<sub>◆◇◇◇ · <b>LVL 1</b></sub><br/><sub>Handles 1k concurrent sockets without blocking.</sub>
+<details><summary><sub>⬆ level up</sub></summary>
+<sub>◆◆◇◇ · <b>LVL 2</b></sub><br/><sub>Streams &amp; backpressure mastered. Memory stays flat.</sub>
+<details><summary><sub>⬆ level up</sub></summary>
+<sub>◆◆◆◇ · <b>LVL 3</b></sub><br/><sub>Cluster + worker threads. CPU-bound work offloaded.</sub>
+<details><summary><sub>⬆ level up</sub></summary>
+<sub>◆◆◆◆ · <b>MAX</b></sub><br/><sub>Event-loop lag profiled to zero. p99 &lt; 50ms.</sub>
+</details>
+</details>
+</details>
+</details>
+</td>
+<td align="center" valign="top" width="25%">
+<details>
+<summary><img src="./assets/abilities/w.svg" width="72" alt="Virtual DOM" /><br/><sub><b>Virtual DOM</b></sub></summary>
+<br/>
+<sub>◆◇◇◇ · <b>LVL 1</b></sub><br/><sub>Summons components that render.</sub>
+<details><summary><sub>⬆ level up</sub></summary>
+<sub>◆◆◇◇ · <b>LVL 2</b></sub><br/><sub>Hooks &amp; memo. No wasted re-renders.</sub>
+<details><summary><sub>⬆ level up</sub></summary>
+<sub>◆◆◆◇ · <b>LVL 3</b></sub><br/><sub>Code-splitting, Suspense, virtualized lists.</sub>
+<details><summary><sub>⬆ level up</sub></summary>
+<sub>◆◆◆◆ · <b>MAX</b></sub><br/><sub>60fps UIs even on potato devices.</sub>
+</details>
+</details>
+</details>
+</details>
+</td>
+<td align="center" valign="top" width="25%">
+<details>
+<summary><img src="./assets/abilities/e.svg" width="72" alt="Peer Link" /><br/><sub><b>Peer Link</b></sub></summary>
+<br/>
+<sub>◆◇◇◇ · <b>LVL 1</b></sub><br/><sub>Establishes a P2P call. ICE, STUN, TURN.</sub>
+<details><summary><sub>⬆ level up</sub></summary>
+<sub>◆◆◇◇ · <b>LVL 2</b></sub><br/><sub>SFU architecture, simulcast, bandwidth estimation.</sub>
+<details><summary><sub>⬆ level up</sub></summary>
+<sub>◆◆◆◇ · <b>LVL 3</b></sub><br/><sub>Survives 20% packet loss. NACK, FEC, jitter buffers.</sub>
+<details><summary><sub>⬆ level up</sub></summary>
+<sub>◆◆◆◆ · <b>MAX</b></sub><br/><sub>Thousands of concurrent live rooms.</sub>
+</details>
+</details>
+</details>
+</details>
+</td>
+<td align="center" valign="top" width="25%">
+<details>
+<summary><img src="./assets/abilities/r.svg" width="72" alt="AI Overdrive" /><br/><sub><b>AI Overdrive</b></sub></summary>
+<br/>
+<sub>◆◇◇ · <b>LVL 1</b></sub><br/><sub><i>Ultimate.</i> Summons AI pair-programmers. Coding speed +50%.</sub>
+<details><summary><sub>⬆ level up</sub></summary>
+<sub>◆◆◇ · <b>LVL 2</b></sub><br/><sub>Agents with tools &amp; MCP. Automates entire workflows.</sub>
+<details><summary><sub>⬆ level up</sub></summary>
+<sub>◆◆◆ · <b>MAX</b></sub><br/><sub>Ships LLM features to prod: RAG, evals, guardrails. ♥</sub>
+</details>
+</details>
+</details>
+</td>
+</tr>
+</table>
+
+### 🎒 Inventory <sub>— click an item to inspect</sub>
+
+<table>
+<tr>
+<td align="center" valign="top">
+<details>
+<summary><img src="https://skillicons.dev/icons?i=docker" width="44" alt="Docker" /><br/><sub><b>Docker</b></sub></summary>
+<br/><sub><i>Passive · Works On My Machine</i></sub><br/><sub>Ships the machine too.</sub>
+</details>
+</td>
+<td align="center" valign="top">
+<details>
+<summary><img src="https://skillicons.dev/icons?i=redis" width="44" alt="Redis" /><br/><sub><b>Redis</b></sub></summary>
+<br/><sub><i>Active · Cache Hit</i></sub><br/><sub>Latency −90%. Cooldown: TTL.</sub>
+</details>
+</td>
+<td align="center" valign="top">
+<details>
+<summary><img src="https://skillicons.dev/icons?i=postgres" width="44" alt="Postgres" /><br/><sub><b>Postgres</b></sub></summary>
+<br/><sub><i>Passive · ACID Armor</i></sub><br/><sub>Your data never lies.</sub>
+</details>
+</td>
+<td align="center" valign="top">
+<details>
+<summary><img src="https://skillicons.dev/icons?i=rabbitmq" width="44" alt="RabbitMQ" /><br/><sub><b>RabbitMQ</b></sub></summary>
+<br/><sub><i>Passive · Queue Up</i></sub><br/><sub>Messages are never lost, only delayed.</sub>
+</details>
+</td>
+<td align="center" valign="top">
+<details>
+<summary><img src="https://skillicons.dev/icons?i=nginx" width="44" alt="Nginx" /><br/><sub><b>Nginx</b></sub></summary>
+<br/><sub><i>Aura · Reverse Proxy</i></sub><br/><sub>Allies behind it take 50% less traffic.</sub>
+</details>
+</td>
+<td align="center" valign="top">
+<details>
+<summary><img src="https://skillicons.dev/icons?i=elasticsearch" width="44" alt="Elastic" /><br/><sub><b>Elastic</b></sub></summary>
+<br/><sub><i>Active · True Sight</i></sub><br/><sub>Finds any log in the haystack.</sub>
+</details>
+</td>
+</tr>
+</table>
 
 ### 📜 Quest Log
 
@@ -35,7 +134,7 @@
 + [DONE]    Tame the Node.js event loop under production load
 + [DONE]    Unlock ultimate: AI Overdrive — AI agents in the daily workflow
 ! [ACTIVE]  Build AI-powered features: LLMs, agents, tool use, RAG   ████████░░ 80%
-! [ACTIVE]  Master Go — goroutines, channels, pprof            ██████░░░░ 60%
+! [ACTIVE]  Go deep on AI engineering: evals, MCP, fine-tuning   █████░░░░░ 55%
 ! [ACTIVE]  Performance deep-dive: profiling, GC, memory, p99  ███████░░░ 70%
 - [LOCKED]  Write the WebRTC article I keep promising myself   (requires: free weekend)
 ```
@@ -45,7 +144,7 @@
 > **Node.js** internals · **React** perf · **WebRTC** (ICE, SFU, simulcast, “why is my video frozen”) · scaling real-time backends · **AI agents & LLM tooling** 🤖
 
 <details>
-<summary><b>🎒 Full inventory</b> <i>(click to open the stash)</i></summary>
+<summary><b>📦 Full stash</b> <i>(everything else in the bank)</i></summary>
 <br/>
 
 <p align="center">
