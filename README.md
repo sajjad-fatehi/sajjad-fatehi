@@ -12,7 +12,7 @@
 <br/>
 
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Hero card — Sajjad, The Low-Latency" />
+  <img src="./assets/hero.svg?v=3" width="100%" alt="Hero card — Sajjad, The Low-Latency" />
 </p>
 
 
