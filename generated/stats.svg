@@ -10,12 +10,12 @@
   <rect x="24" y="46" width="392" height="1" fill="#f7b32b" opacity=".25"/>
   <g class="fade" style="animation-delay:0s" font-family="'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, Consolas, monospace">
     <text x="24" y="76" font-size="11" fill="#8b93b8">contributions / yr</text>
-    <text x="208" y="76" font-size="15" font-weight="700" text-anchor="end" fill="#f5efe0">14</text>
+    <text x="208" y="76" font-size="15" font-weight="700" text-anchor="end" fill="#f5efe0">18</text>
     <rect x="24" y="86" width="184" height="1" fill="#2a2350"/>
   </g>
   <g class="fade" style="animation-delay:0.08s" font-family="'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, Consolas, monospace">
     <text x="232" y="76" font-size="11" fill="#8b93b8">commits / yr</text>
-    <text x="416" y="76" font-size="15" font-weight="700" text-anchor="end" fill="#f5efe0">11</text>
+    <text x="416" y="76" font-size="15" font-weight="700" text-anchor="end" fill="#f5efe0">15</text>
     <rect x="232" y="86" width="184" height="1" fill="#2a2350"/>
   </g>
   <g class="fade" style="animation-delay:0.16s" font-family="'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, Consolas, monospace">
