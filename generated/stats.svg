@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="180" viewBox="0 0 440 180" role="img" aria-label="MATCH HISTORY">
+  <style>
+    .fade { animation: fade .8s ease both; }
+    @keyframes fade { from { opacity: 0; transform: translateY(6px); } }
+    .grow { transform-box: fill-box; transform-origin: left center; animation: grow 1.2s cubic-bezier(.2,.8,.2,1) both; }
+    @keyframes grow { from { transform: scaleX(0); } }
+  </style>
+  <rect x=".5" y=".5" width="439" height="179" rx="14" fill="#070a1a" stroke="#2a2350"/>
+  <text x="24" y="36" font-family="'Cinzel', 'Trajan Pro', Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="3.5" fill="#f7b32b">MATCH HISTORY</text>
+  <rect x="24" y="46" width="392" height="1" fill="#f7b32b" opacity=".25"/>
+  <g class="fade" style="animation-delay:0s" font-family="'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="24" y="76" font-size="11" fill="#8b93b8">contributions / yr</text>
+    <text x="208" y="76" font-size="15" font-weight="700" text-anchor="end" fill="#f5efe0">14</text>
+    <rect x="24" y="86" width="184" height="1" fill="#2a2350"/>
+  </g>
+  <g class="fade" style="animation-delay:0.08s" font-family="'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="232" y="76" font-size="11" fill="#8b93b8">commits / yr</text>
+    <text x="416" y="76" font-size="15" font-weight="700" text-anchor="end" fill="#f5efe0">11</text>
+    <rect x="232" y="86" width="184" height="1" fill="#2a2350"/>
+  </g>
+  <g class="fade" style="animation-delay:0.16s" font-family="'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="24" y="112" font-size="11" fill="#8b93b8">merged PRs (wins)</text>
+    <text x="208" y="112" font-size="15" font-weight="700" text-anchor="end" fill="#f5efe0">0</text>
+    <rect x="24" y="122" width="184" height="1" fill="#2a2350"/>
+  </g>
+  <g class="fade" style="animation-delay:0.24s" font-family="'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="232" y="112" font-size="11" fill="#8b93b8">stars earned</text>
+    <text x="416" y="112" font-size="15" font-weight="700" text-anchor="end" fill="#f5efe0">10</text>
+    <rect x="232" y="122" width="184" height="1" fill="#2a2350"/>
+  </g>
+  <g class="fade" style="animation-delay:0.32s" font-family="'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="24" y="148" font-size="11" fill="#8b93b8">repos owned</text>
+    <text x="208" y="148" font-size="15" font-weight="700" text-anchor="end" fill="#f5efe0">6</text>
+    <rect x="24" y="158" width="184" height="1" fill="#2a2350"/>
+  </g>
+  <g class="fade" style="animation-delay:0.4s" font-family="'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="232" y="148" font-size="11" fill="#8b93b8">followers</text>
+    <text x="416" y="148" font-size="15" font-weight="700" text-anchor="end" fill="#f5efe0">9</text>
+    <rect x="232" y="158" width="184" height="1" fill="#2a2350"/>
+  </g>
+</svg>
