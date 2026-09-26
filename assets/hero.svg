@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-label="Hero card: Sajjad, The Low-Latency. Abilities: Node.js, React, WebRTC, Go.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14101d"/>
+      <stop offset="1" stop-color="#0a0810"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#8a6a2f"/>
+      <stop offset=".5" stop-color="#f3d58a"/>
+      <stop offset="1" stop-color="#8a6a2f"/>
+    </linearGradient>
+    <linearGradient id="portrait" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1d52"/>
+      <stop offset=".6" stop-color="#1a1236"/>
+      <stop offset="1" stop-color="#0d0a1c"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx=".5" cy=".38" r=".5">
+      <stop offset="0" stop-color="#f7b32b" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#f7b32b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hp" x1="0" x2="1"><stop offset="0" stop-color="#1f7a3a"/><stop offset="1" stop-color="#46c46a"/></linearGradient>
+    <linearGradient id="mana" x1="0" x2="1"><stop offset="0" stop-color="#1d4f91"/><stop offset="1" stop-color="#4aa3ff"/></linearGradient>
+    <linearGradient id="slot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#231c30"/><stop offset="1" stop-color="#15111d"/></linearGradient>
+    <clipPath id="frame"><rect width="900" height="420" rx="18"/></clipPath>
+    <clipPath id="portraitClip"><rect x="24" y="64" width="220" height="262" rx="10"/></clipPath>
+    <linearGradient id="ultBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b1066"/>
+      <stop offset="1" stop-color="#0f0a2a"/>
+    </linearGradient>
+    <linearGradient id="ultEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f472b6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, Consolas, monospace; }
+    .sans { font-family: 'Inter', 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; }
+    .serif { font-family: 'Cinzel', 'Trajan Pro', Georgia, 'Times New Roman', serif; }
+    .dim { fill: #8e86a3; }
+    .grow { transform-box: fill-box; transform-origin: left center; animation: grow 1.4s cubic-bezier(.2,.8,.2,1) both; }
+    .g1 { animation-delay: .2s; } .g2 { animation-delay: .4s; } .g3 { animation-delay: .6s; } .g4 { animation-delay: .8s; } .g5 { animation-delay: 1s; }
+    @keyframes grow { from { transform: scaleX(0); } }
+    .ultRing { animation: ultRing 2.4s ease-in-out infinite; }
+    @keyframes ultRing { 0%, 100% { stroke-opacity: .35; } 50% { stroke-opacity: 1; } }
+    .neuron { animation: fire 1.8s ease-in-out infinite; }
+    .n1 { animation-delay: 0s; } .n2 { animation-delay: .3s; } .n3 { animation-delay: .6s; }
+    @keyframes fire { 0%, 100% { opacity: .45; } 40% { opacity: 1; } }
+    .sunSpin { transform-origin: 134px 160px; animation: spin 24s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .float { animation: float 4s ease-in-out infinite; }
+    @keyframes float { 50% { transform: translateY(-5px); } }
+    .shine { animation: shine 3.5s ease-in-out infinite; }
+    @keyframes shine { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="420" fill="url(#bg)"/>
+
+    <text class="serif" x="24" y="40" font-size="13" letter-spacing="4" fill="#c9a55c">HERO PROFILE</text>
+    <text class="mono dim" x="200" y="40" font-size="12">// pick me for your team</text>
+    <g>
+      <rect x="788" y="22" width="88" height="26" rx="13" fill="#2a2010" stroke="url(#gold)"/>
+      <text class="serif" x="832" y="40" text-anchor="middle" font-size="13" font-weight="700" fill="#f3d58a">LVL 30</text>
+    </g>
+    <g class="mono">
+      <rect x="640" y="22" width="138" height="26" rx="13" fill="#0a1d26" stroke="#00add8" stroke-opacity=".6"/>
+      <text class="shine" x="709" y="39" text-anchor="middle" font-size="10" fill="#7fdcf2">⏳ buff: learning Go</text>
+    </g>
+    <rect x="24" y="52" width="852" height="1" fill="url(#gold)" opacity=".5"/>
+
+    <g clip-path="url(#portraitClip)">
+      <rect x="24" y="64" width="220" height="262" fill="url(#portrait)"/>
+      <circle cx="134" cy="160" r="110" fill="url(#sunGlow)"/>
+      <g class="float">
+        <g class="sunSpin" stroke="#f7b32b" stroke-width="5" stroke-linecap="round">
+          <path d="M134 104v-16M134 216v16M78 160h-16M190 160h16M94.4 120.4l-11.3-11.3M173.6 199.6l11.3 11.3M94.4 199.6l-11.3 11.3M173.6 120.4l11.3-11.3"/>
+        </g>
+        <circle cx="134" cy="160" r="40" fill="#f7b32b"/>
+        <circle cx="134" cy="160" r="40" fill="none" stroke="#fde68a" stroke-width="2" opacity=".6"/>
+        <text class="serif" x="134" y="174" text-anchor="middle" font-size="40" font-weight="700" fill="#2a1a05">S</text>
+      </g>
+      <rect x="24" y="258" width="220" height="68" fill="#07050c" opacity=".72"/>
+      <text class="serif" x="134" y="286" text-anchor="middle" font-size="20" font-weight="700" letter-spacing="3" fill="#f3d58a">SAJJAD</text>
+      <text class="serif" x="134" y="308" text-anchor="middle" font-size="12" font-style="italic" letter-spacing="1" fill="#c9b99a">The Low-Latency</text>
+    </g>
+    <rect x="24.5" y="64.5" width="219" height="261" rx="10" fill="none" stroke="url(#gold)"/>
+    <g>
+      <circle cx="222" cy="86" r="13" fill="#0d2440" stroke="#4aa3ff" stroke-width="2"/>
+      <text class="sans" x="222" y="91" text-anchor="middle" font-size="11" font-weight="800" fill="#9fd0ff">INT</text>
+    </g>
+
+    <text class="sans" x="272" y="88" font-size="24" font-weight="800" fill="#f5efe0">Sajjad Fatehi</text>
+    <text class="mono dim" x="272" y="110" font-size="12">Ranged · Carry · AI-Augmented · Guild: SkyRoom</text>
+
+    <g class="mono" font-size="12">
+      <circle cx="279" cy="138" r="6" fill="#e5484d"/>
+      <text x="292" y="142" fill="#f0c9c9">STR · Backend</text>
+      <rect x="420" y="132" width="220" height="10" rx="5" fill="#241a22"/>
+      <rect class="grow g1" x="420" y="132" width="202" height="10" rx="5" fill="#e5484d"/>
+      <text x="652" y="142" fill="#f0c9c9" font-weight="700">92</text>
+
+      <circle cx="279" cy="162" r="6" fill="#46a758"/>
+      <text x="292" y="166" fill="#c9f0d2">AGI · Frontend</text>
+      <rect x="420" y="156" width="220" height="10" rx="5" fill="#1a2420"/>
+      <rect class="grow g2" x="420" y="156" width="187" height="10" rx="5" fill="#46a758"/>
+      <text x="652" y="166" fill="#c9f0d2" font-weight="700">85</text>
+
+      <circle cx="279" cy="186" r="6" fill="#4aa3ff"/>
+      <text x="292" y="190" fill="#c9e2ff">INT · Real-time</text>
+      <rect x="420" y="180" width="220" height="10" rx="5" fill="#172030"/>
+      <rect class="grow g3" x="420" y="180" width="211" height="10" rx="5" fill="#4aa3ff"/>
+      <text x="652" y="190" fill="#c9e2ff" font-weight="700">96</text>
+    </g>
+
+    <g class="mono" font-size="11">
+      <text x="700" y="142" class="dim">move speed</text><text x="876" y="142" text-anchor="end" fill="#f5efe0">p99 &lt; 50ms</text>
+      <text x="700" y="166" class="dim">attack range</text><text x="876" y="166" text-anchor="end" fill="#f5efe0">full-stack</text>
+      <text x="700" y="190" class="dim">vision</text><text x="876" y="190" text-anchor="end" fill="#f5efe0">1800 / night</text>
+    </g>
+
+    <text class="serif" x="272" y="214" font-size="11" letter-spacing="3" fill="#c9a55c">ABILITIES</text>
+    <g class="mono">
+      <rect x="272" y="222" width="64" height="64" rx="8" fill="url(#slot)" stroke="#3a3048"/>
+      <text x="304" y="264" text-anchor="middle" font-size="26" fill="#6cc24a">⟳</text>
+      <rect x="275" y="225" width="16" height="16" rx="3" fill="#07050c"/><text x="283" y="237" text-anchor="middle" font-size="10" font-weight="700" fill="#f5efe0">Q</text>
+      <text x="304" y="302" text-anchor="middle" font-size="10" fill="#d8d0e6">Event Loop</text>
+      <text x="304" y="315" text-anchor="middle" font-size="9" class="dim">Node.js</text>
+
+      <rect x="350" y="222" width="64" height="64" rx="8" fill="url(#slot)" stroke="#3a3048"/>
+      <text x="382" y="266" text-anchor="middle" font-size="28" fill="#61dafb">⚛</text>
+      <rect x="353" y="225" width="16" height="16" rx="3" fill="#07050c"/><text x="361" y="237" text-anchor="middle" font-size="10" font-weight="700" fill="#f5efe0">W</text>
+      <text x="382" y="302" text-anchor="middle" font-size="10" fill="#d8d0e6">Virtual DOM</text>
+      <text x="382" y="315" text-anchor="middle" font-size="9" class="dim">React</text>
+
+      <rect x="428" y="222" width="64" height="64" rx="8" fill="url(#slot)" stroke="#3a3048"/>
+      <text x="460" y="264" text-anchor="middle" font-size="26" fill="#22d3ee">⇄</text>
+      <rect x="431" y="225" width="16" height="16" rx="3" fill="#07050c"/><text x="439" y="237" text-anchor="middle" font-size="10" font-weight="700" fill="#f5efe0">E</text>
+      <text x="460" y="302" text-anchor="middle" font-size="10" fill="#d8d0e6">Peer Link</text>
+      <text x="460" y="315" text-anchor="middle" font-size="9" class="dim">WebRTC</text>
+
+      <rect x="506" y="222" width="64" height="64" rx="8" fill="url(#ultBg)"/>
+      <rect class="ultRing" x="503" y="219" width="70" height="70" rx="10" fill="none" stroke="url(#ultEdge)" stroke-width="2"/>
+      <g stroke="#c4b5fd" stroke-opacity=".5" stroke-width="1">
+        <path d="M524 250L540 236M524 250L540 254M524 250L540 272M524 272L540 236M524 272L540 254M524 272L540 272M540 236L556 254M540 254L556 254M540 272L556 254"/>
+      </g>
+      <circle class="neuron n1" cx="524" cy="250" r="4" fill="#f472b6"/>
+      <circle class="neuron n1" cx="524" cy="272" r="4" fill="#f472b6"/>
+      <circle class="neuron n2" cx="540" cy="236" r="4" fill="#c084fc"/>
+      <circle class="neuron n2" cx="540" cy="254" r="4" fill="#c084fc"/>
+      <circle class="neuron n2" cx="540" cy="272" r="4" fill="#c084fc"/>
+      <circle class="neuron n3" cx="556" cy="254" r="5" fill="#22d3ee"/>
+      <rect x="509" y="225" width="16" height="16" rx="3" fill="#07050c"/><text x="517" y="237" text-anchor="middle" font-size="10" font-weight="700" fill="#f9a8d4">R</text>
+      <text x="538" y="302" text-anchor="middle" font-size="10" fill="#f9a8d4">AI Overdrive</text>
+      <text class="shine" x="538" y="315" text-anchor="middle" font-size="9" fill="#f472b6">AI · ♥ maxed</text>
+    </g>
+
+    <text class="serif" x="600" y="214" font-size="11" letter-spacing="3" fill="#c9a55c">INVENTORY</text>
+    <g class="mono" font-size="10" text-anchor="middle">
+      <rect x="600" y="222" width="86" height="30" rx="6" fill="url(#slot)" stroke="#3a3048"/><text x="643" y="241" fill="#2496ed">Docker</text>
+      <rect x="695" y="222" width="86" height="30" rx="6" fill="url(#slot)" stroke="#3a3048"/><text x="738" y="241" fill="#ff4438">Redis</text>
+      <rect x="790" y="222" width="86" height="30" rx="6" fill="url(#slot)" stroke="#3a3048"/><text x="833" y="241" fill="#6ea8e0">Postgres</text>
+      <rect x="600" y="258" width="86" height="30" rx="6" fill="url(#slot)" stroke="#3a3048"/><text x="643" y="277" fill="#ff8a3d">RabbitMQ</text>
+      <rect x="695" y="258" width="86" height="30" rx="6" fill="url(#slot)" stroke="#3a3048"/><text x="738" y="277" fill="#34d058">Nginx</text>
+      <rect x="790" y="258" width="86" height="30" rx="6" fill="url(#slot)" stroke="#3a3048"/><text x="833" y="277" fill="#fec514">Elastic</text>
+      <rect x="600" y="294" width="276" height="26" rx="6" fill="#1d1608" stroke="url(#gold)"/>
+      <text x="738" y="311" fill="#f3d58a">☕ Aghanim's Espresso · +∞ focus</text>
+    </g>
+
+    <g class="mono" font-size="11" font-weight="700">
+      <rect x="24" y="344" width="852" height="20" rx="4" fill="#0f1a12"/>
+      <rect class="grow g4" x="24" y="344" width="741" height="20" rx="4" fill="url(#hp)"/>
+      <text x="450" y="358" text-anchor="middle" fill="#fff">COFFEE 870 / 1000</text>
+      <text x="870" y="358" text-anchor="end" fill="#b9f5c8">+4.2</text>
+
+      <rect x="24" y="370" width="852" height="20" rx="4" fill="#0d1526"/>
+      <rect class="grow g5" x="24" y="370" width="682" height="20" rx="4" fill="url(#mana)"/>
+      <text x="450" y="384" text-anchor="middle" fill="#fff">FOCUS 640 / 800</text>
+      <text x="870" y="384" text-anchor="end" fill="#c9e2ff">+2.8</text>
+    </g>
+
+    <text class="mono dim" x="450" y="408" text-anchor="middle" font-size="10">also main in: Dota 2 · C&amp;C Generals · Stronghold — gg wp</text>
+  </g>
+  <rect x=".5" y=".5" width="899" height="419" rx="18" fill="none" stroke="url(#gold)" stroke-opacity=".6"/>
+</svg>
