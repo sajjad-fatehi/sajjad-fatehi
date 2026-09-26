@@ -46,17 +46,19 @@
 ### 📊 Match History
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sajjad-fatehi&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=070a1a&title_color=f7b32b&icon_color=22d3ee&text_color=c9d1d9&ring_color=f7b32b&custom_title=Sajjad's%20Match%20History" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=sajjad-fatehi&layout=compact&langs_count=8&hide_border=true&bg_color=070a1a&title_color=f7b32b&text_color=c9d1d9&custom_title=Most%20Picked%20Heroes" />
+  <img height="165" src="./generated/stats.svg" alt="Match history" />
+  <img height="165" src="./generated/languages.svg" alt="Most picked heroes" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=sajjad-fatehi&hide_border=true&background=070a1a&ring=f7b32b&fire=f7b32b&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=22d3ee&sideLabels=a5b4fc&dates=8b93b8&stroke=2a2350" />
 </p>
 
+<!--
 <p align="center">
   <img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution map" />
 </p>
+-->
 
 ### ✍️ Patch Notes <sub>(latest from Medium)</sub>
 
