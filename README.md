@@ -6,7 +6,6 @@
   <a href="https://www.linkedin.com/in/sajjad-fatehi-403a9a187/"><img src="https://img.shields.io/badge/linkedin-connect-22d3ee?style=flat-square&logo=linkedin&logoColor=white&labelColor=070a1a" /></a>
   <a href="https://medium.com/@sajjadfatehy"><img src="https://img.shields.io/badge/medium-read-f7b32b?style=flat-square&logo=medium&logoColor=white&labelColor=070a1a" /></a>
   <a href="mailto:sajjadfatehy@gmail.com"><img src="https://img.shields.io/badge/mail-say_hi-a5b4fc?style=flat-square&logo=gmail&logoColor=white&labelColor=070a1a" /></a>
-  <a href="https://skyroom.online"><img src="https://img.shields.io/badge/guild-SkyRoom-4ade80?style=flat-square&logo=googlemeet&logoColor=white&labelColor=070a1a" /></a>
   <img src="https://komarev.com/ghpvc/?username=sajjad-fatehi&style=flat-square&color=7c3aed&label=players+joined" />
 </p>
 
@@ -19,7 +18,7 @@
 ### 📜 Quest Log
 
 ```diff
-+ [DONE]    Ship real-time audio/video to thousands of users   @ SkyRoom
++ [DONE]    Ship real-time audio/video to thousands of users
 + [DONE]    Tame the Node.js event loop under production load
 + [DONE]    Unlock ultimate: AI Overdrive — AI agents in the daily workflow
 ! [ACTIVE]  Build AI-powered features: LLMs, agents, tool use, RAG   ████████░░ 80%
