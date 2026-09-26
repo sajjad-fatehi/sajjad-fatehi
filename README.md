@@ -62,6 +62,7 @@
 ### ✍️ Patch Notes <sub>(latest from Medium)</sub>
 
 <!-- BLOG-POST-LIST:START -->
+- 🚧 _No patch notes yet — the first article is still in the quest log. Stay tuned._
 <!-- BLOG-POST-LIST:END -->
 
 <p align="center">
