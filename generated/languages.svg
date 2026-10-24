@@ -10,16 +10,16 @@
   <rect x="24" y="46" width="392" height="1" fill="#f7b32b" opacity=".25"/>
   <clipPath id="bar"><rect x="24" y="60" width="392" height="10" rx="5"/></clipPath>
   <rect x="24" y="60" width="392" height="10" rx="5" fill="#151a33"/>
-  <g class="grow" clip-path="url(#bar)"><rect x="24.0" y="60" width="198.4" height="10" fill="#00ADD8"/><rect x="222.4" y="60" width="127.5" height="10" fill="#3178c6"/><rect x="349.9" y="60" width="18.9" height="10" fill="#f1e05a"/><rect x="368.8" y="60" width="17.3" height="10" fill="#c6538c"/><rect x="386.1" y="60" width="14.6" height="10" fill="#427819"/><rect x="400.7" y="60" width="13.3" height="10" fill="#663399"/><rect x="414.0" y="60" width="2.0" height="10" fill="#e34c26"/><rect x="416.0" y="60" width="2.0" height="10" fill="#89e051"/></g>
+  <g class="grow" clip-path="url(#bar)"><rect x="24.0" y="60" width="199.7" height="10" fill="#00ADD8"/><rect x="223.7" y="60" width="126.6" height="10" fill="#3178c6"/><rect x="350.3" y="60" width="18.8" height="10" fill="#f1e05a"/><rect x="369.1" y="60" width="17.2" height="10" fill="#c6538c"/><rect x="386.4" y="60" width="14.5" height="10" fill="#427819"/><rect x="400.9" y="60" width="13.2" height="10" fill="#663399"/><rect x="414.0" y="60" width="2.0" height="10" fill="#e34c26"/><rect x="416.0" y="60" width="2.0" height="10" fill="#89e051"/></g>
   <g class="fade" style="animation-delay:0.3s" font-family="'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="11">
     <circle cx="29" cy="92" r="5" fill="#00ADD8"/>
     <text x="40" y="96" fill="#f5efe0">Go</text>
-    <text x="208" y="96" text-anchor="end" fill="#8b93b8">50.6%</text>
+    <text x="208" y="96" text-anchor="end" fill="#8b93b8">51.0%</text>
   </g>
   <g class="fade" style="animation-delay:0.36s" font-family="'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="11">
     <circle cx="237" cy="92" r="5" fill="#3178c6"/>
     <text x="248" y="96" fill="#f5efe0">TypeScript</text>
-    <text x="416" y="96" text-anchor="end" fill="#8b93b8">32.5%</text>
+    <text x="416" y="96" text-anchor="end" fill="#8b93b8">32.3%</text>
   </g>
   <g class="fade" style="animation-delay:0.42s" font-family="'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="11">
     <circle cx="29" cy="114" r="5" fill="#f1e05a"/>
